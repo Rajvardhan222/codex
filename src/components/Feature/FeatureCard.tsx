@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function FeatureCard({imagePath,title,title2,gradient}:{imagePath:string,title2?:string,title:string,gradient:string}) {
+export default function FeatureCard({imagePath,title,title2}:{imagePath:string,title2?:string,title:string,gradient:string}) {
     return (
         <div className={" gap-x-5 border-[2px] peer-[]: rounded-xl px-10 py-4 border-[#2B95ED] grid grid-cols-2 grid-rows-2"}>
 <div className={`row-span-2 rounded-full bg-gradient-to-tr from-[#FFFFFF4D] to-[#1DDDDF36]`}>

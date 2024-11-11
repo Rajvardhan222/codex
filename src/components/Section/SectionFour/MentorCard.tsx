@@ -1,8 +1,7 @@
 import Image from "next/image";
 
 export default function MentorCard({imagePath,style,name,title,position,description}: {imagePath:string,style:string,name:string,title:string,position:string,description:string,}) {
-    // @ts-ignore
-    // @ts-ignore
+
     return <div className={`bg-gradient-to-b ${style} h-1/4 w-[405px] relative after:absolute after:w-20 after:h-20 after:bg-[url(/images/Subtract.svg)] after:z-50 after:top-0 after:-right-3 after:bg-no-repeat  `}>
         <p className={"text-white text-2xl font-semibold relative top-20 right-24 text-center "}>{name}</p>
         <div className={""}>
