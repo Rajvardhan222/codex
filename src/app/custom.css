@@ -1,0 +1,5 @@
+.custom-gradient-border{
+
+    border-image: linear-gradient(to bottom, #2B95ED,#2B95ED,#14CBD5);
+    border-image-slice: 1;
+}
